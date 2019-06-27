@@ -1,0 +1,74 @@
+/*Responsive-Design*/
+/*// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1200px) {
+	.navbar-nav .nav-link {
+    display: inline-block;
+	}
+	.navbar-nav .nav-link {
+    font-size: 12px;
+	}
+}
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 992px)  {
+	.navbar-nav .nav-link {
+    display: inline-block;
+	}
+	.navbar-nav{
+    margin-left: 160px !important;
+	margin-right: 160px !important;
+	}
+	.main-menu .nav-item:nth-child(1){
+    border-top: 5px solid #f78f2f;
+	}
+	.main-menu .nav-item {
+    background: #cc7f382e;
+    text-align: center;
+    padding: 10px 0px;
+	}
+}
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+	.top-menu li {
+    margin-left: 10px;
+	}
+	.navbar-nav .nav-link {
+    display: inline-block;
+	}
+	.navbar-nav{
+    margin-left: 100px !important;
+	margin-right: 100px !important;
+	}
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+	.top-info{
+		text-align: center;
+		margin-bottom: 5px;
+	}
+	.top-menu{
+		justify-content: center !important;
+	}
+	.navbar-nav .nav-link {
+    display: inline-block;
+	}
+	.navbar-nav{
+    margin-left: 60px !important;
+	margin-right: 60px !important;
+	}
+	.main-menu .nav-item:nth-child(1){
+    border-top: 5px solid #f78f2f;
+	}
+	.main-menu .nav-item {
+    background: #cc7f382e;
+    text-align: center;
+    padding: 10px 0px;
+	}
+}
+
+
